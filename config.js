@@ -15,7 +15,7 @@ var ffmapConfig = {
   distance:  1.0,
   strength:  1.0,
   
-  current_firmware : "0.26"
+  current_firmware : "0.26",
 
   // path to the nodes.json
   nodes_json: "nodes.json",
