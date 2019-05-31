@@ -4,10 +4,12 @@ define("config", function () {
 
   var ffmapConfig = {
     // link to your main community site:
-    url:       "/",
+    url:       "http://md.freifunk.net/",
+
+    // current version
 
     // visible link in the navigation:
-    sitename:  "gothamcity.freifunk.net",
+    sitename:  "md.freifunk.net",
 
     // initial gravity, friction, of the graph at pageload:
     gravity:   0.05,
@@ -18,7 +20,10 @@ define("config", function () {
     strength:  1.0,
 
     // path to the nodes.json
-    nodesJSON: "nodes.json"
+    nodesJSON: "nodes.json",
+    "citylat": "52.133333",
+    "citylon": "10.616667",
+    "radius": "100"
   }
 
   return ffmapConfig
